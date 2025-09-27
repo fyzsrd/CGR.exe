@@ -1,0 +1,14 @@
+{
+  "model": "PTR 60",
+  "variants": [
+    { "description": "2050×880×70MM, 5\" S/L", "MSP": 19300, "MRP": 21500 },
+    { "description": "2050×880×70MM, 5\" M/L", "MSP": 20300, "MRP": 22500 },
+    { "description": "2050×980×70MM, 6\" M/L", "MSP": 25900, "MRP": 27000 },
+    { "description": "2050×1080×70MM, 6\" M/L", "MSP": 29300, "MRP": 30500 },
+    { "description": "2050×1080×70MM, 9\" M/L", "MSP": 32500, "MRP": 33500 },
+    { "description": "2050×1200×70MM, 6\" M/L {MS}", "MSP": 36900, "MRP": 38500 },
+    { "description": "2050×1200×70MM, 9\" M/L {MS}", "MSP": 41900, "MRP": 43500 }
+  ]
+}
+
+
