@@ -41,39 +41,39 @@ const Home = () => {
     <div className="p-5 mx-auto max-w-5xl">
       <div className="grid grid-cols-3 gap-x-10 gap-y-5 bg-blue-100 p-4">
         {/* Row 1 */}
-        <Doors onClick={() => handleClick({ name: "P-220", img: PTR220 })} DoorModel="P-220" img={PTR220} />
-        <Doors onClick={() => handleClick({ name: "P-45", img: PTR45 })} DoorModel="P-45" img={PTR45} />
-        <Doors onClick={() => handleClick({ name: "P-75", img: PTR75 })} DoorModel="P-75" img={PTR75} />
+        <Doors onClick={() => handleClick({ name: "P-220", img: PTR220 })} DoorModel="P-220" img={PTR220} cp={47900} />
+        <Doors onClick={() => handleClick({ name: "P-45", img: PTR45 })} DoorModel="P-45" img={PTR45} cp={22600} />
+        <Doors onClick={() => handleClick({ name: "P-75", img: PTR75 })} DoorModel="P-75" img={PTR75} cp={27300}/>
 
         {/* Row 2 */}
-        <Doors onClick={() => handleClick({ name: "P-110", img: ptr110 })} DoorModel="PTR 110" img={ptr110} /> 
-        <Doors onClick={() => handleClick({ name: "P-202", img: ptr202 })} DoorModel="PTR 202" img={ptr202} />
-        <Doors onClick={() => handleClick({ name: "PTR 115", img: ptr115 })} DoorModel="PTR 115" img={ptr115} />
+        <Doors onClick={() => handleClick({ name: "P-110", img: ptr110 })} DoorModel="PTR 110" img={ptr110} cp={46900} /> 
+        <Doors onClick={() => handleClick({ name: "P-202", img: ptr202 })} DoorModel="PTR 202" img={ptr202}  cp={27900}/>
+        <Doors onClick={() => handleClick({ name: "PTR 115", img: ptr115 })} DoorModel="PTR 115" img={ptr115} cp={22500} />
 
         {/* Row 3 */}
-        <Doors onClick={() => handleClick({ name: "P-20", img: ptr20 })} DoorModel="PTR 20 BH" img={ptr20} />
-        <Doors onClick={() => handleClick({ name: "P-500", img: PTR500 })} DoorModel="PTR 500" img={PTR500} />
-        <Doors onClick={() => handleClick({ name: "P-20", img: ptr20fh })} DoorModel="PTR 20 FH" img={ptr20fh} />
+        <Doors onClick={() => handleClick({ name: "P-20", img: ptr20 })} DoorModel="PTR 20 BH" img={ptr20}  cp={49500}/>
+        <Doors onClick={() => handleClick({ name: "P-500", img: PTR500 })} DoorModel="PTR 500" img={PTR500} cp={40900} />
+        <Doors onClick={() => handleClick({ name: "P-20", img: ptr20fh })} DoorModel="PTR 20 FH" img={ptr20fh} cp={53000}/>
 
         {/* Row 4 */}
-        <Doors onClick={() => handleClick({ name: "P-636", img: PTR636 })} DoorModel="PTR 636" img={PTR636} />
-        <Doors onClick={() => handleClick({ name: "P-60", img: PTR60 })} DoorModel="PTR 60" img={PTR60} />
-        <Doors onClick={() => handleClick({ name: "P-99", img: PTR99 })} DoorModel="PTR 99" img={PTR99} />
+        <Doors onClick={() => handleClick({ name: "P-636", img: PTR636 })} DoorModel="PTR 636" img={PTR636} cp={12000} />
+        <Doors onClick={() => handleClick({ name: "P-60", img: PTR60 })} DoorModel="PTR 60" img={PTR60} cp={21500}/>
+        <Doors onClick={() => handleClick({ name: "P-99", img: PTR99 })} DoorModel="PTR 99" img={PTR99} cp={28500}/>
 
         {/* Row 5 */}
         <Doors onClick={() => handleClick({ name: "Null", img: null })} DoorModel="Null" />
         <Doors onClick={() => handleClick({ name: "Null", img: null })} DoorModel="Null" />
-        <Doors onClick={() => handleClick({ name: "P-21", img: PTR21 })} DoorModel="PTR 21" img={PTR21} />
+        <Doors onClick={() => handleClick({ name: "P-21", img: PTR21 })} DoorModel="PTR 21" img={PTR21} cp={38500} />
 
         {/* Row 6 */}
-        <Doors onClick={() => handleClick({ name: "P-55", img: PTR55 })} DoorModel="PTR 55" img={PTR55} />
-        <Doors onClick={() => handleClick({ name: "P-20", img: PTR20OUTOPEN })} DoorModel="PTR20OUT OPEN" img={PTR20OUTOPEN} />
-        <Doors onClick={() => handleClick({ name: "P-201", img: PTR201 })} DoorModel="PTR 201" img={PTR201} />
+        <Doors onClick={() => handleClick({ name: "P-55", img: PTR55,  })} DoorModel="PTR 55" img={PTR55} cp={39900}/>
+        <Doors onClick={() => handleClick({ name: "P-20", img: PTR20OUTOPEN })} DoorModel="PTR20OUT OPEN" img={PTR20OUTOPEN} cp={22500} />
+        <Doors onClick={() => handleClick({ name: "P-201", img: PTR201 })} DoorModel="PTR 201" img={PTR201} cp={22500} />
 
         {/* Row 7 */}
-        <Doors onClick={() => handleClick({ name: "P-30", img: PTR30 })} DoorModel="PTR 30" img={PTR30} />
-        <Doors onClick={() => handleClick({ name: "P-101", img: PTR101 })} DoorModel="PTR 101" img={PTR101} />
-        <Doors onClick={() => handleClick({ name: "P-189", img: PTR189 })} DoorModel="PTR 189" img={PTR189} />
+        <Doors onClick={() => handleClick({ name: "P-30", img: PTR30 })} DoorModel="PTR 30" img={PTR30} cp={22500} />
+        <Doors onClick={() => handleClick({ name: "P-101", img: PTR101 })} DoorModel="PTR 101" img={PTR101}  cp={55900}/>
+        <Doors onClick={() => handleClick({ name: "P-189", img: PTR189 })} DoorModel="PTR 189" img={PTR189} cp={2700}/>
       </div>
 
       {/* Modal */}

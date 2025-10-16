@@ -1,6 +1,6 @@
 import React from 'react'
 
-const Doors = ({ DoorModel, img, onClick }) => {
+const Doors = ({ DoorModel, img, onClick,cp }) => {
   return (
     <div 
       onClick={onClick} 
@@ -13,9 +13,10 @@ const Doors = ({ DoorModel, img, onClick }) => {
           className="max-h-full max-w-full object-contain" 
         />
       )}
-      <h2 className="absolute bottom-1 text-sm bg-black/50 px-2 rounded">
-        {DoorModel}
+      <h2 className="absolute bottom-1 text-sm bg-black/50 px-2 rounded font-bold bg">
+        {DoorModel} <span className='bg-amber-50 text-black px-0.5 ml-0.5 rounded'>{cp}</span>
       </h2>
+      
     </div>
   )
 }
